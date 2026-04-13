@@ -1,0 +1,115 @@
+/* Style for the game */
+
+body {
+    font-family: "Georgia", serif;
+    background: linear-gradient(to bottom, #b98661, #0b1220);
+    color: #f5f1e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the game */
+
+.game {
+    background: #1c1a17;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: min(800px, 92vw);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    border: 1px solid #5a4632;
+}
+
+/* Header */
+
+.game-header h1 {
+    text-align: center;
+    margin-bottom: 0.25rem;
+    font-size: 2rem;
+    color: #fbbf24;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1rem;
+    color: #d6c6a5;
+    margin-bottom: 1.5rem;
+}
+
+/* Story */
+
+.story {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.7;
+    padding: 1rem;
+    background: #f3e6c8;
+    color: #2b1d13;
+    border-radius: 0.75rem;
+    border: 2px solid #a67c52;
+}
+
+/* ---------- STATUS ---------- */
+
+.status {
+    text-align: center;
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #5a4632;
+    color: #fbbf24;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+/* ---------- BUTTONS ---------- */
+
+button.choice {
+    width: 100%;
+    padding: 0.9rem;
+    border-radius: 0.7rem;
+    border: 1px solid #5a4632;
+    background: #8b5e34;
+    color: #f5f1e6;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+
+button.choice,
+button.restart {
+    cursor: pointer;
+}
+
+button.choice:hover {
+    background: #a06a3b;
+    border-color: #c89b6d;
+    transform: translateY(-2px);
+}
+
+button.choice:focus {
+    outline: 3px solid #f3e6c8;
+    outline-offset: 2px;
+}
+
+button.choice:active {
+    transform: translateY(0);
+    background: #6e4526;
+}
+
+/* ---------- RESTART BUTTON ---------- */
+
+button.restart {
+    background: #556b2f;
+}
+
+button.restart:hover {
+    background: #6b8e23;
+}
