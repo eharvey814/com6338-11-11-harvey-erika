@@ -9,7 +9,6 @@ Multiple outcomes (win/lose)
 Dynamic DOM updates
 
 Logic:
-
 Game state stored in an object
 Scenes stored in structured data
 Each choice updates state and transitions scenes
