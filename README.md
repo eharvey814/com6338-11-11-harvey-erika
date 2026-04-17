@@ -1,5 +1,5 @@
 Concept:
-“Frontier Journey” is a text-based survival game inspired by my childhood favorite computer-based gam, The Oregon Trail. Players manage resources and make decisions to survive a journey west.
+“Frontier Journey” is a text-based survival game inspired by my childhood favorite computer-based game, The Oregon Trail. Players manage resources and make decisions to survive a journey west.
 
 Features:
 
@@ -12,4 +12,4 @@ Logic:
 
 Game state stored in an object
 Scenes stored in structured data
-Each choice updates state + transitions scenes
+Each choice updates state and transitions scenes
