@@ -12,7 +12,7 @@ let gameState = {
 
 const scenes = {
   start: {
-  text: "It’s 1848. Your wagon is packed and ready in Independence, Missouri. The trail west is long and dangerous.",
+  text: "The year is 1848. Your wagon is packed and ready in Independence, Missouri. The trail west is over 2000 miles and very dangerous.",
   options: [
     {
       text: "Spend extra time gathering supplies",
@@ -84,7 +84,7 @@ const scenes = {
         effects: { food: +15, ammo: -3, day: +1 }
       },
       {
-        text: "Save ammo and eep moving",
+        text: "Save ammo and keep moving",
         nextScene: "storm",
         effects: { food: -5, day: +1 }
       }
@@ -119,19 +119,19 @@ const scenes = {
   },
 
   endingSuccess: {
-    text: "🎉 You made it to Oregon safely!",
+    text: "You made it to Oregon safely!",
     isEnding: true,
     options: []
   },
 
   endingBarely: {
-    text: "😓 You barely survived the journey.",
+    text: "You barely survived the journey.",
     isEnding: true,
     options: []
   },
 
   endingFailure: {
-    text: "💀 You did not survive the journey.",
+    text: "You did not survive the journey.",
     isEnding: true,
     options: []
   }
